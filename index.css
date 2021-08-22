@@ -113,7 +113,7 @@ a{color: inherit;
 		color: #bfbfbf;
 		float: left;
 		margin-right: 3rem;
-		padding-top: 3rem;
+		padding-top: 2.5rem;
 	}
 	.page-header nav li:last-child{
 		margin-right: 0;
@@ -124,7 +124,7 @@ a{color: inherit;
 		font-size: 1.6em;
 
 	}
-	/*------Section------*/
+	/*------Section1 (Main visual)------*/
 	.main-visual{
 
 	}
@@ -138,18 +138,37 @@ a{color: inherit;
 	.main-visual figcaption > strong{
 		font-size: 1.4em;
 	}
-
+	/*------Section2 (Articles)---------*/
+	.claim{
+		float: left;
+		width: 30%;
+		margin-right: 5%;
+	}
+	.claim:last-child{
+		margin-right: 0;
+	}
+	.claim > header h2 > i{
+		font-size: 1.5em;
+		color: midnightblue;
+		width: 20%;
+	}
 	/*------Footer------*/
 	.page-footer:before{
 		content: " ";
 		display: block;
 		height: 5px;
 		background-color: midnightblue;
-
 	}
 	.page-footer{
 		background-color: #f4f4f4;
 		font-size: 1rem;
+	}
+	.page-footer .social-media{
+		display: block ;
+
+	}
+	.page-footer-content > .social-media > a{
+		font-size: 1.3em;
 	}
 	.page-footer .copyright{
 		float: left;
@@ -160,4 +179,6 @@ a{color: inherit;
 	.page-footer-content{
 		padding: 1em 0;
 	}
+
+
 
