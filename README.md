@@ -1,4 +1,3 @@
-#Mockup
 Mockup website based on one created for a client who sells coffee products.
 Credits:
 AuxxiDev & Me
